@@ -52,6 +52,7 @@ const lyricChangeReducer = (state = initialState.songsById, action) => {
     return newSongsByIdStateSlice;
 
   default:
+    
     return state;
   }
 };
